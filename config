@@ -1,0 +1,26 @@
+[global_config]
+  title_use_system_font = False
+  title_font = Open Sans 9
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1f2430"
+    background_darkness = 1.0
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Hack 12
+    foreground_color = "#839496"
+    show_titlebar = False
+    palette = "#1f2430:#ff3333:#bae67e:#ffa759:#73d0ff:#d4bfff:#95e6cb:#cbccc6:#707a8c:#ff3333:#bae67e:#ffa759:#73d0ff:#d4bfff:#95e6cb:#cbccc6"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 1200, 700
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
